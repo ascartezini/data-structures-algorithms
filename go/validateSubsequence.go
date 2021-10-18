@@ -17,6 +17,7 @@ package main
 
 import "fmt"
 
+// O(n) time | O(1) space
 func isValidSubsequence(array, sequence []int) bool {
 	sequenceIndex := 0
 
