@@ -14,6 +14,7 @@
 // Sample Output
 // true
 
+// O(n) time | O(1) space
 function isValidSubsequence(array, sequence) {
 
     let sequenceIndex = 0;
