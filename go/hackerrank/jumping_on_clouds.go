@@ -14,7 +14,7 @@ func jumpingOnClouds(c []int32) int32 {
 			continue
 		}
 
-		if i+2 < j && c[i+2] == 0 && i+2-i == 2 {
+		if i+2 < j && c[i+2] == 0 {
 			i += 2
 		} else {
 			i++
