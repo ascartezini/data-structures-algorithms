@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // O(log(n)) time | O(1) space
 func binarySearch(array []int, target int) bool {
 	left := 0
@@ -26,9 +24,9 @@ func binarySearch(array []int, target int) bool {
 	return false
 }
 
-func main() {
-	array := []int{0, 1, 21, 33, 45, 52, 61, 71, 72, 73}
-	target := 33
+// func main() {
+// 	array := []int{0, 1, 21, 33, 45, 52, 61, 71, 72, 73}
+// 	target := 33
 
-	fmt.Println(binarySearch(array, target))
-}
+// 	fmt.Println(binarySearch(array, target))
+// }

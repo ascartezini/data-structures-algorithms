@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func validAnagram(word1, word2 string) bool {
 	// if the length is different then it's not a valid anagram
 	if len(word1) != len(word2) {
@@ -51,8 +49,8 @@ func validAnagram(word1, word2 string) bool {
 	return true
 }
 
-func main() {
-	fmt.Println(validAnagram("god", "dog"))
-	fmt.Println(validAnagram("race", "care"))
-	fmt.Println(validAnagram("earth", "heart"))
-}
+// func main() {
+// 	fmt.Println(validAnagram("god", "dog"))
+// 	fmt.Println(validAnagram("race", "care"))
+// 	fmt.Println(validAnagram("earth", "heart"))
+// }

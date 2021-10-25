@@ -1,4 +1,4 @@
-package main
+package hackerrank
 
 func sockMerchant(n int32, ar []int32) int32 {
 	// Write your code here

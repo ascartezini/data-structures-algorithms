@@ -1,13 +1,11 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println(isMatch("(({{}}))"))
-	fmt.Println(isMatch("(({{}}))("))
-	fmt.Println(isMatch("("))
-	fmt.Println(isMatch("){"))
-}
+// func main() {
+// 	fmt.Println(isMatch("(({{}}))"))
+// 	fmt.Println(isMatch("(({{}}))("))
+// 	fmt.Println(isMatch("("))
+// 	fmt.Println(isMatch("){"))
+// }
 
 func isMatch(s string) bool {
 

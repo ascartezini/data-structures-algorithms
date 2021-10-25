@@ -15,8 +15,6 @@
 
 package main
 
-import "fmt"
-
 // O(n) time | O(1) space
 func isValidSubsequence(array, sequence []int) bool {
 	sequenceIndex := 0
@@ -30,8 +28,8 @@ func isValidSubsequence(array, sequence []int) bool {
 	return sequenceIndex == len(sequence)
 }
 
-func main() {
-	array := []int{5, 1, 22, 25, 6, -1, 8, 10}
-	sequence := []int{1, 6, -1, 10}
-	fmt.Println(isValidSubsequence(array, sequence))
-}
+// func main() {
+// 	array := []int{5, 1, 22, 25, 6, -1, 8, 10}
+// 	sequence := []int{1, 6, -1, 10}
+// 	fmt.Println(isValidSubsequence(array, sequence))
+// }

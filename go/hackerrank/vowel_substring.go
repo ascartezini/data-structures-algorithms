@@ -1,9 +1,4 @@
-package main
-
-import (
-	"fmt"
-	"time"
-)
+package hackerrank
 
 func findSubstring(s string, k int32) string {
 
@@ -46,11 +41,4 @@ func findSubstring(s string, k int32) string {
 	}
 
 	return word
-}
-
-func main() {
-	start := time.Now()
-	fmt.Println(findSubstring("andregregorioscartezini", 5))
-	elapsed := time.Since(start)
-	fmt.Println(elapsed)
 }
