@@ -41,15 +41,3 @@ func minimumBribes(q []int32) {
 	}
 
 }
-
-// pos := int32(i + 1)
-// actualPos := q[i] - pos
-
-// more than one bribe
-// if actualPos > 2 {
-// 	chaos = true
-// 	break
-// } else if actualPos > 0 {
-// 	c += actualPos
-// }
-// i++
